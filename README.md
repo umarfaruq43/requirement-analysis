@@ -54,4 +54,81 @@ Requirement Analysis involves several structured activities that ensure the syst
 
 - **Requirement Validation**  
   - Verifying that documented requirements accurately represent stakeholder needs.  
-  - Conducted through reviews, walkthroughs, and prototyping to ensure correctness and completeness.  
+  - Conducted through reviews, walkthroughs, and prototyping to ensure correctness and completeness.
+ 
+    
+## 📂 Types of Requirements
+
+In software projects, requirements are generally classified into two categories: **Functional Requirements** and **Non-functional Requirements**. Both are critical to ensure that the system not only works as intended but also delivers the right quality of service.
+
+---
+
+### ✅ Functional Requirements
+**Definition:**  
+Functional requirements define **what the system should do**. They describe the features, services, and operations of the system as expected by users and stakeholders.  
+
+**Examples for the Booking Management System:**  
+- The system shall allow users to **create, update, and cancel bookings**.  
+- The system shall send **email or SMS confirmations** after a booking is completed.  
+- The system shall allow administrators to **manage available rooms, services, and schedules**.  
+- The system shall enable users to **make payments online** through secure payment gateways.  
+- The system shall generate a **booking history report** for both users and administrators.  
+
+---
+
+### ⚙️ Non-functional Requirements
+**Definition:**  
+Non-functional requirements specify **how the system performs its functions**, focusing on quality attributes such as performance, usability, and reliability.  
+
+**Examples for the Booking Management System:**  
+- The system should handle **up to 1,000 concurrent users** without performance degradation.  
+- The system should have an **uptime of 99.9%** to ensure availability.  
+- The booking confirmation emails should be delivered **within 60 seconds** after a successful transaction.  
+- The system’s user interface should be **mobile-responsive** and accessible across devices.  
+- All sensitive user data (e.g., payment details) must be **encrypted using industry-standard protocols (e.g., SSL/TLS)**.  
+
+---
+
+✅ **Summary:**  
+- **Functional Requirements = What the system does** (features, tasks, services).  
+- **Non-functional Requirements = How the system does it** (performance, quality, constraints).  
+Both are essential to ensure the project’s success.
+## 🎭 Use Case Diagrams
+
+**Definition:**  
+A **Use Case Diagram** is a visual representation of the interactions between **actors** (users or external systems) and the system itself. It highlights the functional requirements of a system by showing **who** can do **what** with the system.  
+
+**Benefits of Use Case Diagrams:**  
+- Provide a **high-level view** of system functionality.  
+- Help stakeholders and developers maintain a **shared understanding** of requirements.  
+- Simplify communication by representing complex requirements visually.  
+- Act as a foundation for creating detailed **use case descriptions** and scenarios.  
+
+---
+
+### 📊 Use Case Diagram for Booking Management System
+
+The diagram below represents the major actors and use cases in the **Booking Management System**.
+
+**Actors:**  
+- **Customer** – books, updates, and cancels bookings.  
+- **Admin** – manages rooms, services, and schedules.  
+- **Payment Gateway** – processes payments.  
+- **Notification Service** – sends booking confirmations.  
+
+**Use Cases:**  
+- Create Booking  
+- Update Booking  
+- Cancel Booking  
+- View Booking History  
+- Process Payment  
+- Manage Rooms & Services  
+- Send Confirmation Notification  
+
+---
+
+### 🖼 Diagram
+
+![Booking Management Use Case Diagram](https://res.cloudinary.com/dsrxjzmcl/image/upload/v1756563865/bookingPlan_rmeoly.png)
+
+---
