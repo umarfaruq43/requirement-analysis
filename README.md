@@ -132,3 +132,34 @@ The diagram below represents the major actors and use cases in the **Booking Man
 ![Booking Management Use Case Diagram](https://res.cloudinary.com/dsrxjzmcl/image/upload/v1756563865/bookingPlan_rmeoly.png)
 
 ---
+
+## ✅ Acceptance Criteria
+
+**Definition & Importance:**  
+Acceptance Criteria are the conditions that a software product must satisfy to be accepted by a user, customer, or other stakeholders. They serve as a **bridge between requirements and testing**, ensuring that the delivered feature aligns with the intended functionality and quality standards.  
+
+**Why Acceptance Criteria are Important:**  
+- Provide **clear expectations** for developers, testers, and stakeholders.  
+- Act as a **basis for test cases** and validation during Quality Assurance (QA).  
+- Reduce misunderstandings by making requirements **measurable and testable**.  
+- Help in determining when a feature is **“done” and ready for release**.  
+
+---
+
+### 🛒 Example: Checkout Feature (Booking Management System)
+
+**Feature:** Online Checkout for Bookings  
+
+**Acceptance Criteria:**  
+- ✅ The system should allow the user to proceed to checkout after selecting a booking.  
+- ✅ The user must be able to enter and validate payment details securely.  
+- ✅ The system should display the total cost (including taxes/fees) before final confirmation.  
+- ✅ Payment should be processed via the integrated payment gateway (e.g., Stripe, PayPal).  
+- ✅ Upon successful payment, the system must generate a booking confirmation and send it via **email/SMS**.  
+- ✅ If the payment fails, the system should display an error message and allow the user to retry.  
+- ✅ The checkout page must be accessible and responsive across desktop and mobile devices.  
+
+---
+
+✅ **In summary:** Acceptance Criteria make requirements **testable, verifiable, and reliable**, ensuring that the delivered software meets both business and user needs.
+
